@@ -94,6 +94,77 @@ public class MainProject {
         System.out.println(mySecondDouble);
         System.out.println(mySecondShort);
 
+        //Condition if else
+
+        int day = 2;
+        if(day == 1) {
+            System.out.println("Monday");
+        } else if(day == 2) {
+            System.out.println("Tuesday");
+        } else if(day == 3) {
+            System.out.println("Wednesday");
+        } else if(day == 4) {
+            System.out.println("Thursday");
+        } else if(day == 5) {
+            System.out.println("Friday");
+        } else if(day == 6) {
+            System.out.println("Saturday");
+        } else if(day == 7) {
+            System.out.println("Sunday");
+        } else {
+            System.out.println("Invalid day!");
+        }
+
+        //Switch condition
+
+        int dayA = 4;
+        switch (dayA) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+        }
+
+
+        //int i = 0;
+        //while (i < 6)
+        //{
+         //System.out.println(i);
+         //i++;
+        //}
+
+        int n = 1;
+        while (n<=6)
+        {
+            System.out.println("["+n+"]");
+            n++;
+        }
+
+        //int sum = 0;
+        //while (int i=1; i<=n;)
+        //{
+          //  System.out.println(i);
+            //i++;
+        //}
+
+
     }
 
 
