@@ -1,5 +1,9 @@
-public class MainProject {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
+public class MainProject {
+    static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
 
         //primitive
@@ -157,13 +161,28 @@ public class MainProject {
             n++;
         }
 
-        //int sum = 0;
-        //while (int i=1; i<=n;)
-        //{
-          //  System.out.println(i);
-            //i++;
-        //}
+        int sumFirstPositveInt = 0, i = 1;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please input a number: ");
+        int inputNumber = scanner.nextInt();
+        while (i<=inputNumber)
+        {
+            sumFirstPositveInt+=i;
+            i++;
+        }
+        System.out.println("Sum of First Positive Integer: "+sumFirstPositveInt);
+        generateArray();
 
+    }
+
+    public static void generateArray(){
+        System.out.println("Enter Number: ");
+        int inputNum = scanner.nextInt();
+        int i = 1;
+        do {
+                System.out.println(i*2);
+            i++;
+        }while( i <= inputNum);
 
     }
 
